@@ -1,0 +1,176 @@
+body {
+  font-family: "JetBrains Mono";
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #74ebd5;
+  background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%);
+  background-image: url(https://wallpaperaccess.com/full/2279240.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* .divTo::before{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    top: 0px;
+    left: 0px;
+    background-image: url(https://p7.hiclipart.com/preview/789/208/945/earth-sun-incense-sun.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+.divTo::after{
+    content: "";
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    bottom: -700px;
+    right: 0px;
+    background-image: url(https://i.pinimg.com/originals/c6/8a/8f/c68a8f04a9b7e4f1245c30af6435357b.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+} */
+p {
+  margin-bottom: 0px;
+}
+.divTo {
+  /* padding: 15px, 50px; */
+  width: 55%;
+  background-color: rgba(255, 255, 255, 0.9);
+  /* background-color: white; */
+  padding: 10px;
+  border-radius: 20px;
+}
+.divTren {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divThongTin {
+  padding: 15px 30px;
+  /* text-justify: inter-word; */
+  text-align: justify;
+}
+.divThongTin p:nth-child(1) {
+  font-size: 15px;
+  color: darkgoldenrod;
+  font-weight: bold;
+  margin-bottom: 0.5px;
+}
+.divThongTin p:nth-child(2) {
+  font-size: 40px;
+  color: teal;
+  margin-bottom: 0.5px;
+}
+.divThongTin p:nth-child(4) {
+  font-size: 15px;
+  margin-top: 1em;
+  margin-bottom: 0.5px;
+}
+.divTheThongTin {
+  flex-wrap: wrap;
+  width: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.infoItem {
+  padding: 5px 10px;
+  border-radius: 50px;
+  background-color: whitesmoke;
+  color: crimson;
+  font-weight: bold;
+  box-shadow: 0 1px 1px black;
+  margin: 2.5px;
+}
+.my-avatar {
+  /* margin-right: 5%; */
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+}
+.divDuoi {
+  /* background-color: bisque; */
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.divTrai {
+  /* background-color: azure; */
+  width: 60%;
+  height: fit-content;
+  border-right: 2.5px dashed #a5b1c2;
+}
+.divPhai {
+  /* background-color: rgb(83, 255, 141); */
+  width: 40%;
+  height: 100%;
+  padding-left: 10px;
+}
+/* .title {
+    justify-content: space-between;
+} */
+.topicUnderline {
+  width: fit-content;
+  font-size: 25px;
+  border-bottom: 5px solid #fc5c65;
+}
+.projectTitle {
+  /* justify-content: space-around; */
+  display: flex;
+}
+.projectTitle div:nth-child(2) {
+  margin: 1%;
+  width: 5px;
+  border-radius: 20px;
+  background-color: darkkhaki;
+}
+.projectName {
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: large;
+  border-left: 10px solid #4b7bec;
+}
+.flexDiv {
+  /* background-color: red; */
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+}
+.itemLeft {
+  margin: 20px 0;
+  border-radius: 15px;
+  /* background-color: beige; */
+  padding: 5px;
+}
+.blank {
+  min-width: 50px;
+  background-color: white;
+}
+.techItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  width: fit-content;
+  min-width: 50px;
+  height: min-content;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  margin: 2.5px;
+  box-shadow: 0 1px 2px black;
+}
