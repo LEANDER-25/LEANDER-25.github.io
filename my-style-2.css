@@ -1,0 +1,58 @@
+body {
+    background-color: aqua;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1% 0;
+    font-family: 'Georgia';
+}
+.root {
+    background-color: bisque;
+    border-radius: 20px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2.5% 0;
+    /* align-items: center; */
+}
+.info-part {
+    background-color: red;
+    border-radius: 15px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+
+}
+.my-avatar {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-left {
+    margin-left: 1%;
+    width: 55%;
+    height: 100%;
+    background-color: azure;
+    align-items: center;
+}
+.column {
+    display: flex;
+}
+.item {
+    margin: 2px;
+    font-size: 50px;
+}
+.my-name-is {
+    font-size: 30px;
+    font-weight: bold;
+}
+.my-name {
+    font-size: 60px;
+}
+/* .intro-my-name {
+} */
