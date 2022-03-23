@@ -1,58 +1,75 @@
 body {
-    background-color: aqua;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1% 0;
-    font-family: 'Georgia';
+  /* background-color: aqua; */
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5% 0;
+  font-family: "Georgia";
 }
-.root {
-    background-color: bisque;
-    border-radius: 20px;
-    width: 90%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 2.5% 0;
-    /* align-items: center; */
+.root0 {
+  /* justify-content: center; */
+  vertical-align: middle;
+  /* background-color: black; */
+  width: 90%;
+  height: 100%;
+}
+.root1 {
+  background-color: bisque;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 2.5% 0;
+  justify-content: center;
+  /* align-items: center; */
 }
 .info-part {
-    background-color: red;
-    border-radius: 15px;
-    width: 95%;
-    height: 100%;
-    display: flex;
-    overflow: hidden;
-
+  /* background-color: red; */
+  border-radius: 15px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
 }
 .my-avatar {
-    width: 45%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
 }
 .info-left {
-    margin-left: 1%;
-    width: 55%;
-    height: 100%;
-    background-color: azure;
-    align-items: center;
+  margin-left: 1%;
+  width: 50%;
+  height: 100%;
+  /* background-color: rgb(94, 214, 214); */
+  align-items: center;
+  justify-content: center;
 }
 .column {
-    display: flex;
+  display: flex;
 }
 .item {
-    margin: 2px;
-    font-size: 50px;
+  /* margin: 2px; */
+  font-size: 70px;
 }
 .my-name-is {
-    font-size: 30px;
-    font-weight: bold;
+  font-size: 30px;
+  font-weight: bold;
 }
 .my-name {
-    font-size: 60px;
+  /* background-color: white; */
+  justify-content: right;
+  width: fit-content;
+  font-size: 60px;
+  border-bottom: 2px solid black;
+}
+.blank {
+  height: 50px;
+  /* background-color: white; */
 }
 /* .intro-my-name {
 } */

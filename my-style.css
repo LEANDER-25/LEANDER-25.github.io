@@ -6,7 +6,7 @@ body {
   align-items: center;
   /* background-color: #74ebd5;
   background-image: linear-gradient(90deg, #74ebd5 0%, #9face6 100%); */
-  background-image: url(https://wallpaperaccess.com/full/2279240.jpg);
+  /* background-image: url(https://wallpaperaccess.com/full/2279240.jpg); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -51,6 +51,7 @@ p {
   border-radius: 20px;
 }
 .divTren {
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,6 +98,7 @@ p {
   width: 20%;
   height: 20%;
   border-radius: 50%;
+  border: 2.5px dashed rgb(204, 125, 125);
 }
 .divDuoi {
   /* background-color: bisque; */
